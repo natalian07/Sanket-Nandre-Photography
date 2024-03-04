@@ -10,7 +10,7 @@ body {
 
 nav{
     font-family: 'Ubuntu', sans-serif;
-    background-color: black;
+    background-color: white;
 }
 
 nav ul{
@@ -25,6 +25,7 @@ nav ul{
 
 nav ul li{
     padding: 0 12px;
+    color: white;
 }
 .brand img{
     width: 200px;
@@ -63,4 +64,8 @@ nav ul li{
 
 .hero-mgs a {
     color: #007185;
+}
+
+li a {
+    color: white;
 }
