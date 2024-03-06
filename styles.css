@@ -27,6 +27,9 @@ nav ul li{
     padding: 0 12px;
     color: white;
 }
+nav ul li a{
+    text-decoration: none;
+}
 .brand img{
     width: 200px;
     padding: 0 8px;
