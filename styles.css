@@ -45,6 +45,7 @@ nav ul li a{
 
 /* hero-section */
 .hero-section {
+    border-top: 2px solid white;
     background-image: url(hero.jpeg);
     background-size: cover;
     height: 500px;
@@ -53,22 +54,56 @@ nav ul li a{
     align-items: flex-end;
 }
 
-.hero-mgs {
-    background-color: white;
-    color: black;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.85rem;
-    width: 80%;
-    margin-bottom: 25px;
-}
-
-.hero-mgs a {
-    color: #007185;
-}
-
 li a {
     color: white;
+}
+
+.foot-panel1 {
+    background-color: black;
+    border-top: 2px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.foot-panel2 {
+    background-color: rgb(216, 153, 69);
+    color: white;
+    height: 50px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.copyright {
+    padding-top: 20px;
+}
+
+footer span a{
+    color: white;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+.form {
+    background-color: bisque;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
 }
