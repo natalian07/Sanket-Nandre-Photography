@@ -25,7 +25,6 @@ html {
     height: 5rem;
     font-size: 1.5rem;
     background-color: rgb(216, 153, 69);
-    /* background-color: transparent; */
     display: flex;
     align-items: center;
 }
@@ -85,6 +84,7 @@ form {
     align-items: center;
 	flex-direction: column;
     gap: 2rem;
+
 }
 
 label , p {
@@ -92,11 +92,18 @@ label , p {
     font-size: 2rem;
 }
 
-input[type="text"], input[type="email"] {
-	padding: 10px;
-	border-radius: 5px;
+input[type="text"] {
+	padding: 1rem;
+	border-radius: .5rem;
 	border: none;
-	width: auto;
+	width: 40rem;
+}
+
+input[type="email"] {
+    padding: 1rem;
+	border-radius: .5rem;
+	border: none;
+	width: 35rem;
 }
 
 textarea {
@@ -110,7 +117,7 @@ textarea {
 
 button {
 	background-color: black;
-	width: auto;
+	width: 20rem;
 	color: white;
 	padding: 1rem;
 	border-radius: .5rem;
