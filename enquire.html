@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquire</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Sanket Nandre Photography</title>
+    <link rel="stylesheet" href="styles/enquire.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li class="brand"><img src="logo.png" alt="Sanket"></li>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="logo"><img src="img/logo.png" alt="Sanket"></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="stories.html">Stories</a></li>
             <li><a href="testimonials.html">Testimonials</a></li>
@@ -18,38 +18,37 @@
             <li><a href="enquire.html">Enquire</a></li>
         </ul>
     </nav>
-    <div class="form">
+    <div class="enquire">
+      <h1>Contact Us</h1>
     <form>
         <div class="form-group">
-            <label id="name-label" for="name">Name</label>
+            <label id="name-label" for="name">Name </label>
             <input id="name" type="text" name="name" class="form-control" placeholder="Enter your Name" required>
           </div>
           <div class="form-group">
-            <label id="email-label" for="email">Email</label>
+            <label id="email-label" for="email">Email </label>
             <input id="email" type="email" name="email" class="form-control" placeholder="Enter your Email" required>
           </div>
           <div class="form-group">
-            <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
-            <input id="number" type="number" min="10" max="99" name="age" class="form-control" placeholder="Age" required>
+            <label id="mobileno-label" for="mobileno">Mobile </label>
+            <input id="mobileno" type="text"  name="mobileno" placeholder="Enter your Mobile Number" required>
           </div>
           <div class="form-group">
-              <p>Any comments or suggestions?</p>
-              <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here...">
+              <p>Any Comments or Suggestions? </p>
+              <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..." required>
               </textarea>
             </div>
             <div class="form-groupb">
               <button type="submit" id="submit" class="submit-button">Submit</button>
             </div>
+        </div>
     </form>
     </div>
-    <footer>
-      <div class="foot-panel1">
-          <div class="logo"></div>
-      </div>
 
-      <div class="foot-panel2">
+    <footer>
+      <div class="foot-panel">
           <div class="copyright">
-              <span>Created By <a href="https://www.instagram.com/natalian_dsouza/">Natalian Dsouza</a> | <span class="far fa-copyright"></span> © 2024s All rights reserved.</span>
+              <span>Created By <a href="https://www.instagram.com/dsouza_natalian/">Natalian Dsouza</a> | <span class="far fa-copyright"></span> © 2024s All rights reserved.</span>
           </div>
       </div>
   </footer>
