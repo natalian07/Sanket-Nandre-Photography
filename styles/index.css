@@ -14,7 +14,7 @@ body {
 
 .navbar {
     display: flex;
-
+    width: 100%;
 }
 
 .nav-list {
@@ -22,7 +22,6 @@ body {
     height: 5rem;
     font-size: 1.5rem;
     background-color: rgb(216, 153, 69);
-    /* background-color: transparent; */
     display: flex;
     align-items: center;
 }
