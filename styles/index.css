@@ -57,23 +57,12 @@ body {
     width: 5rem;
 }
 
-/* .background {
-    background: rgba(0, 0, 0, 0.7) url(hero.jpeg);
-    background-size: cover;
-    background-blend-mode: darken;
-}
-
 .firstSection {
-    height: 100%;
+    background-image: url(hero.jpeg);
+    background-size: cover;
+    height: 50rem;
+    width: 100%;
 }
-
-.box-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
 
 .foot-panel {
     background-color: rgb(216, 153, 69);

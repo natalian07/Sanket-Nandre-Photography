@@ -57,6 +57,13 @@ body {
     width: 5rem;
 }
 
+.firstSection {
+    background-image: url(hero.jpeg);
+    background-size: cover;
+    height: 50rem;
+    width: 100%;
+}
+
 .foot-panel {
     background-color: rgb(216, 153, 69);
     color: white;
