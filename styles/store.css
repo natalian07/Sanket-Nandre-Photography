@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 html {
@@ -9,27 +9,31 @@ html {
 }
 
 body {
-      background-color: burlywood;
+    background-image: url(hero-store.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navbar {
     display: flex;
-
+    width: 100%;
 }
 
 .nav-list {
+    background: transparent;
+	backdrop-filter: blur(20px);
+	transition: all .3s ease-in;
     width: 100%;
-    height: 5rem;
+    height: 6vh;
     font-size: 1.5rem;
-    background-color: rgb(216, 153, 69);
-    /* background-color: transparent; */
     display: flex;
     align-items: center;
 }
 
 .nav-list li {
     list-style: none;
-    padding: 2.6rem 3rem;
+    padding: 20px;
 }
 
 .nav-list li a {
@@ -38,43 +42,52 @@ body {
 }
 
 .nav-list li a:hover {
-    color: black;
+    color: red;
 }
 
 .logo img{
-    width: 7rem;
-    padding: 0 .8rem;
+    width: 150px;
+    padding: 0 8px;
 }
 
 .logo {
-    background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    border: .2rem solid white;
-    border-radius: 70rem;
-    height: 5rem;
-    width: 5rem;
+    height: 10px;
+    width: 500px;
 }
 
 .firstSection {
-    background-image: url(hero.jpeg);
-    background-size: cover;
-    height: 50rem;
+    background-image: url(hero-store.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 610px;
     width: 100%;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+section p {
+    font-size: 4rem;
+    padding-left: 30vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .foot-panel {
-    background-color: rgb(216, 153, 69);
+    background: transparent;
+	backdrop-filter: blur(10px);
+	transition: all .3s ease-in;
     color: white;
-    height: 5rem;
-    border-top: .2rem solid white;
+    height: 6vh;
     font-size: 1.5rem;
     text-align: center;
 }
 
 .copyright {
-    padding-top: 2rem;
+    padding-top: 20px;
 }
 
 footer span a{
