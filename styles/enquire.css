@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-image: url(hero-en.jpg);
+    background-image: url(../img/hero-en.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -55,6 +55,11 @@ body {
     align-items: center;
     height: 10px;
     width: 500px;
+}
+
+.active {
+    background-color: red;
+    height: 2px;
 }
 
 .enquire {

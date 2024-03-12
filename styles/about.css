@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-image: url(hero-ab.jpg);
+    background-image: url(../img/hero-ab.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -42,7 +42,7 @@ body {
 }
 
 .nav-list li a:hover {
-    color: red;
+    background-color: red;
 }
 
 .logo img{
@@ -58,8 +58,13 @@ body {
     width: 500px;
 }
 
+.active {
+    background-color: red;
+    height: 2px;
+}
+
 .firstSection {
-    background-image: url(hero-ab.jpg);
+    background-image: url(../img/hero-ab.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
     height: 610px;

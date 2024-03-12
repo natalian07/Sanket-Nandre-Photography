@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-image: url(hero-tes.jpg);
+    background-image: url(../img/hero-tes.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -58,8 +58,13 @@ body {
     width: 500px;
 }
 
+.active {
+    background-color: red;
+    height: 2px;
+}
+
 .firstSection {
-    background-image: url(hero-tes.jpg);
+    background-image: url(../img/hero-tes.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
     height: 610px;
