@@ -18,19 +18,20 @@
             <li class="active"><a href="enquire.html">Enquire</a></li>
         </ul>
     </nav>
+    <div class="alert">Your form is submitted successfully</div>
     <div class="enquire">
       <h1>EMAIL: example@gmail.com</h1>
       <p id="para">You can draft an email to us on the above mentioned address,<br>
         or can send us the details by filling the form below.</p>
       <h1 id="h1">Thank you !</h1>
-    <form>
+    <form id="enquireForm">
         <div class="form-group">
             <label id="name-label" for="name">Name </label><br>
             <input id="name" type="text" name="name" class="form-control" required>
           </div>
           <div class="form-group">
             <label id="email-label" for="email">Email Address </label><br>
-            <input id="email" type="email" name="email" class="form-control" required>
+            <input id="emailid" type="email" name="emailid" class="form-control" required>
           </div>
           <div class="form-group">
             <label id="subject-label" for="subject">Subject </label><br>
@@ -55,5 +56,7 @@
           </div>
       </div>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
