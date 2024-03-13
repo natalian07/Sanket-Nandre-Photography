@@ -8,13 +8,6 @@ html {
     font-size: 62.5%;
 }
 
-body {
-    background-image: url(../img/hero-tes.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 .navbar {
     display: flex;
     width: 100%;
@@ -63,10 +56,13 @@ body {
     height: 2px;
 }
 
+.background {
+    background: rgba(0, 0, 0, 0.7) url(../img/hero-tes.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
 .firstSection {
-    background-image: url(../img/hero-tes.jpg);
-    background-repeat: no-repeat;
-	background-size: cover;
     height: 610px;
     width: 100%;
     color: white;
@@ -78,7 +74,6 @@ body {
 section p {
     font-size: 4rem;
     padding-left: 30vh;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .foot-panel {

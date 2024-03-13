@@ -8,13 +8,6 @@ html {
     font-size: 62.5%;
 }
 
-body {
-    background-image: url(../img/hero-en.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 .navbar {
     display: flex;
 }
@@ -62,9 +55,15 @@ body {
     height: 2px;
 }
 
+.background {
+    background: rgba(0, 0, 0, 0.7) url(../img/hero-en.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
 .alert {
     width: 100%;
-    background: green;
+    background: rgb(62, 224, 62);
     padding: 10px 20px;
     border-radius: 5px;
     text-align: center;
