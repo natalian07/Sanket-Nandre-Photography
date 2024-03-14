@@ -76,7 +76,7 @@ html {
     width: 600px;
 	height: 420px;
 	background: transparent;
-	backdrop-filter: blur(100px);
+	backdrop-filter: blur(50px);
 	transition: all .3s ease-in;
 	margin: 75px auto;
 	padding: 20px;
