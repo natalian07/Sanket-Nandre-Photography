@@ -63,17 +63,49 @@ html {
 }
 
 .firstSection {
-    height: 610px;
-    width: 100%;
+    height: 412px;
+    width: 800px;
     color: white;
-    display: flex;
+    display: block;
+    text-align: center;
     justify-content: left;
-    align-items: center;
+    padding-top: 200px;
+} 
+
+h1 {
+    font-size: 4rem;
 }
 
-section p {
-    font-size: 4rem;
-    padding-left: 30vh;
+p {
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+button {
+    margin-top: 30px;
+    background-color: blueviolet;
+    padding: 4px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.insta {
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.insta i {
+    margin-right: 2px;   
+}
+
+.insta a {
+    text-decoration: none;
+    color: white;
 }
 
 .foot-panel {
